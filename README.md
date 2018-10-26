@@ -1,4 +1,4 @@
-# My awesome REST API
+# My Awesome REST API
 
 ## Installation
 ```
@@ -8,8 +8,6 @@ python app.py
 
 ## Description
 
-Post, Put, Get, Delete APIs
-
 ## Implementation
 
-This project is implemented using Flask, and is a REST API for a store.
+This project is implemented using Flask, amd is a REST API for a store.
