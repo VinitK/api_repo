@@ -40,7 +40,7 @@ class Store(Resource):
             store.delete_from_db()
         else:
         #if not such record, then inform
-            return {'message': 'No such record with name {}'.format(name)}, 201
+            return {'message': 'No such record with name {}'.format(name)}, 404
         #else give success message
         return {'message': 'Store named {} deleted'.format(name)}, 201
 
